@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeenath Mariyam — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">ZM</div>
+        <div>
+          <h1>Zeenath Mariyam</h1>
+          <p>Web Developer & Student</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero container">
+    <div class="intro">
+      <h2>Hi, I'm <span>Zeenath</span></h2>
+      <p>I build web apps and user interfaces that are clean, fast, and responsive.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>I'm an IT student and web developer passionate about creating interactive web experiences using HTML, CSS, JavaScript, and backend technologies like PHP and MySQL.</p>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="SmartCity DB">
+        <h3>SmartCity DB</h3>
+        <p>SQL Server database and dashboard for managing city services.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Little Book Haven">
+        <h3>Little Book Haven</h3>
+        <p>Java Swing application for bookstore management.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Hotel Website">
+        <h3>Hotel Website</h3>
+        <p>PHP & MySQL-based hotel booking site prototype.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>PHP & MySQL</li>
+      <li>Python</li>
+      <li>Networking (VMware, Cisco)</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="statusMsg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Zeenath Mariyam | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
